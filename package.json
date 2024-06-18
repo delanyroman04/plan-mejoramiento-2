@@ -1,0 +1,29 @@
+{
+  "name": "plan-de-mejoramiento",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app/index.js --exec babel-node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delanyroman04/plan-mejoramiento-2.git"
+  },
+  "author": "Delany",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/delanyroman04/plan-mejoramiento-2/issues"
+  },
+  "homepage": "https://github.com/delanyroman04/plan-mejoramiento-2#readme",
+  "dependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/node": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql": "^2.18.1"
+  }
+}
